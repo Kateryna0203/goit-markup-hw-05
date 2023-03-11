@@ -95,7 +95,6 @@ li {
   gap: 40px;
 }
 
-
 .header-nav-link {
   position: relative;
   font-weight: 500;
@@ -195,7 +194,7 @@ li {
   font-style: normal;
   letter-spacing: 0.04em;
   cursor: pointer;
-  
+
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
@@ -476,13 +475,12 @@ li {
 
   text-decoration: none;
   cursor: pointer;
-  
+
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-}
 .portfolio-button:hover,
 .portfolio-button:focus {
   background: var(--pressed-state);
